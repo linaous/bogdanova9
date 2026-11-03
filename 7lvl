@@ -1,0 +1,5 @@
+def find_dup(a):
+    for i in range(len(a)):
+        if a.count(a[i]) == 2:
+            return a[i]
+        
